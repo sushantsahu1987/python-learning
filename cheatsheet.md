@@ -12,3 +12,4 @@ pipenv check
 pipenv graph
 pipenv lock
 pipenv install --ignore-pipfile
+pipenv lock -r > requirements.txt 
