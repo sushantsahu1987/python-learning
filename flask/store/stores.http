@@ -1,0 +1,32 @@
+# GET http://localhost:5000/store
+
+# GET http://localhost:5000/store/Hello Store/item
+
+# POST http://localhost:5000/store
+# Content-Type: application/json
+
+# {
+#     "name":"More"
+# }    
+
+# POST http://localhost:5000/store/More/item
+# Content-Type: application/json
+
+# {
+#     "name": "apple",
+#     "price": 134
+# }
+
+# GET http://localhost:5000/store/More/item
+
+# GET http://localhost:5000/store/Nan/item
+
+# POST http://localhost:5000/store/Nan/item
+# Content-Type: application/json
+
+# {
+#     "name": "apple",
+#     "price": 134
+# }
+
+# GET http://localhost:5000/store/Nan
